@@ -13,75 +13,11 @@
 	<script src="bootstrap/js/jquery-3.4.1.slim.min.js"></script>
 	<script src="bootstrap/js/popper.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="fontello/css/fontello.css">
-
-	<script type="text/javascript">
- 	function count(){
-  var counter = { var: 0 };
-  TweenMax.to(counter, 3, {
-    var: 100,
-    onUpdate: function () {
-      var number = Math.ceil(counter.var);
-      $('.counter').html(number);
-      if(number === counter.var){ count.kill(); }
-    },
-    onComplete: function(){
-      count();
-    },
-    ease:Circ.easeOut
-  });
-}
-
-count();
-
- </script>
-
-	<head>
 </head>
 </head>
 <body>
-	<div class="container mw-100">
-		<div class="row">
-			<header class="cabecera">
-				<div class="header">
-					<nav class="navbar-static-top">
-						<a href="" class="logo"></a>
-						<input class="menu-btn" type="checkbox" id="menu-btn">
-						<label class="menu-icon" for="menu-btn">
-							<span class="navicon"></span>
-						</label>
-						<ul class="menu">
-						    <li><a href="index.html">Inicio</a></li>
-						    <li><a href="">Sobre Nosotros</a></li>
-						    <li><a href="">Iniciar Sesión</a></li>
-						    <li><a href="">Registrarse</a></li>
-						    <li><a href="">Contacto</a></li>
-						</ul>
-					</nav>
-				</div>
-				<div class="container mw-100">
-					<div class="row">
-						<div class="col-xl-12">
-							<p id="titulo">Proveer +</p>
-						</div>
-					</div>
-				</div>
-				<div class="wave" style="height: 150px; overflow: hidden;" >
-					<svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
-						<path d="M-0.00,49.85 C150.00,149.60 349.20,-49.87 500.00,49.85 L500.00,149.60 L-0.00,149.60 Z" style="stroke: none; fill: #FFFFFF;"></path>
-					</svg>
-				</div>
-			</header>
-		</div>
-	</div>
-	<!-- <div class="container mw-100" style="background-color: yellow; width: 100%;">
-		<div class="container mw-100" style="width: 100%; height: 250px; background-color: blue;"></div>
-	</div>
 
- -->
-
- <button onclick="count();">Click</button>
-
-<div class="counter">0</div>
+	<div><h1 style="text-aling: center">Proximamente</h1></div>
 
 </body>
 </html>
