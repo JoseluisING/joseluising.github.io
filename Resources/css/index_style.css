@@ -1,0 +1,63 @@
+html, body{
+	font-size: 15px;
+background: #136a8a;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #267871, #136a8a);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #267871, #136a8a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	height: 100%;
+	padding-top: 10px;
+}
+
+#box1 p{
+	color: #FFFFFF;
+	text-align: center;
+	font-family: 'Fredoka One', cursive;
+	padding-top: 10px;
+	font-size: 2rem;
+}
+
+#counter .countdown{
+	text-align: center;
+	color: #FFFFFF;
+	font-family: 'Kalam', cursive;
+	font-size: 2rem;
+}
+
+#icons {
+	text-align: center;
+}
+
+#icons .icon-linkedin, .icon-facebook, .icon-twitter{
+	color: #FFFFFF;
+	position: relative;
+	transition: all;
+	font-size: 4rem;
+}
+
+#icons .icon-linkedin:hover{
+	bottom: 10px;
+}
+
+#icons .icon-facebook:hover{
+	bottom: 10px;
+}
+
+#icons .icon-twitter:hover{
+	bottom: 10px;
+}
+
+/*.principal{
+	background: url(../Images/Portada.jpeg);
+	background-size: cover;
+	height: 500px;
+	overflow: hidden;
+}
+
+.titulo{
+  color: #FFFFFF;
+  font-size: 2.5rem;
+  text-align: center;
+  padding-top: 100px;
+}*/
