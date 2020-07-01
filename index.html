@@ -8,69 +8,280 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="Resources/css/index_style.css">
+    <script type="text/javascript" src="Resources/js/validate/validate.js"></script>
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
     <link rel="stylesheet" type="text/css" href="Resources/fontello/css/fontello.css">
     <!-- <link  rel="icon" href="imagenes/favicon.png" type="image/png"> -->
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
-    <title>Mantenimiento</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.15.0/css/mdb.min.css" rel="stylesheet">
+    <title>Portafolio | Inicio</title>
   </head>
   <body ondragstart="return false" onselectstart="return false" oncontextmenu="return false">
-    <section id="box1">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <p>Sitio en Mantenimiento</p>
-          </div>
-        </div>
+    <section>
+         <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #252525;">
+            <a class="navbar-brand" href="#">Portafolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" stiyle="border: hidden;">
+              <span class="lnr lnr-screen" style="color: #FFFFFF; font-size: 25px;"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav" style="justify-content: flex-end; display: flex; flex-grow: 1;">
+                <li class="nav-item">
+                  <a class="nav-link" href="#box1" style="color: #FFFFFF;">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#section1" style="color: #FFFFFF;">Sobre mi</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#section2" style="color: #FFFFFF;">Certificaciones</a>
+                </li>
+                <li class="nav-item">
+                  <!-- <a class="nav-link" href="#" style="color: #FFFFFF;">Contacto</a> -->
+                </li>
+              </ul>
+            </div>
+          </nav>
+      </section>
+      <section id="box1" >
+            <div class="jumbotron card card-image portada ab">
+              <div class="text-white text-center py-5 px-1">
+                <div>
+                  <h2 class="card-title h1-responsive pt-3 mb-5 font-bold"><strong>Desarrollador de Software Multiplataforma</strong></h2>
+                  <p class="mx-1 mb-5 text-center ">Desarrollador web, Android e iOS, Front-end, E-Learning, WordPress y Marketing Digital.</p>
+                  <a class="btn btn-outline-white btn-md" href="#section1"><i class="fas fa-clone left"></i>Saber más...</a>
+                  <!-- <a class="btn btn-outline-white btn-md"><i class="fas fa-clone left"></i>Contactar</a> -->
+                </div>
+              </div>
+            </div>
+      </section>
+
+      <section id="section1">
+      </section>
+
+<div class="container pt-5 my-5 z-depth-0">
+  <section class="p-md-3 mx-md-5">
+    <div class="row d-flex justify-content-between align-items-center">
+      <div class="col-md-6 mb-4">
+        <h2 class="font-weight-bold mb-3">Sobre mi...</h2>
+        <p class="text-muted pt-3">
+          Actualmente estoy cursando el 5to cuatrimestre de la Ingeniería en Tecnologías de la Información y Comunicación, adquiriendo competencias profesionales, para desarrollar software de calidad.
+        </p>
       </div>
-    </section>
-    <section id="logo">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <img src="Resources/Images/perfil.jpg" class="img-fluid rounded-circle img-thumbnail" style="width: 150px;">
-          </div>
-        </div>
+      <div class="col-md-6 col-lg-4 d-flex justify-content-center mb-md-0 mb-5">
+        <img class="img-fluid" src="Resources/Images/progressive_app_m9ms.svg" alt="Sample image">
       </div>
-    </section>
-    <section id="box1">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <p>José luis Badillo<br><small style="font-family: cursive;">Desarrollador de Software Multiplataforma<br><br>Termina en:</small></p>
-          </div>
-        </div>
+    </div>
+    <div class="col-md-12 mb-4 text-center" >
+        <h2 class="font-weight-bold mb-3">Mis Habilidades</h2>
       </div>
-    </section>
-    <section id="counter">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="countdown"></div>
-          </div>
-        </div>
+    <div class="row pt-3">
+      <div class="col-lg-3 col-md-6 mb-5">
+        <h4 class="font-weight-bold mb-3">
+          <i class="far fa-paper-plane indigo-text pr-2"></i>Laravel
+        </h4>
+        <p class="text-muted mb-lg-0">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
       </div>
-    </section>
-    <section id="icons">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <ul class="list-inline">
-              <a href="#" target="blank"><li class="list-inline-item"><h1 class="icon-linkedin"></li></h1></a>
-              <a href="#" target="blank"><li class="list-inline-item"><h1 class="icon-twitter"></li></h1></a>
-              <a href="#" target="blank"><li class="list-inline-item"><h1 class="icon-facebook"></li></h1></a>
-            </ul>
-          </div>
-        </div>
+      <div class="col-lg-3 col-md-6 mb-5">
+        <h4 class="font-weight-bold mb-3">
+          <i class="fas fa-pen-alt green-text pr-2"></i> Feature 2
+        </h4>
+        <p class="text-muted mb-lg-0">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
       </div>
-    </section>
+      <div class="col-lg-3 col-md-6 mb-5">
+        <h4 class="font-weight-bold mb-3">
+          <i class="fas fa-user amber-text pr-2"></i> Feature 3
+        </h4>
+        <p class="text-muted mb-md-0">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-5">
+        <h4 class="font-weight-bold mb-3">
+          <i class="fas fa-rocket red-text pr-2"></i> Feature 4
+        </h4>
+        <p class="text-muted mb-md-0">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+    </div>
+  </section>
+</div>
 
 
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <script type="text/javascript" src="Resources/js/countdown/dest/jquery.countdown.js"></script>
+
+
+<section id="section2"></section>
+
+
+
+  <div class="container mt-5">
+
+</div>
+      </section>
+
+      <section>
+        <div class="container mt-5">
+
+
+  <!--Section: Content-->
+  <section class="">
+
+    <!-- Section heading -->
+    <h3 class="text-center font-weight-bold mb-5">Certificaciones</h3>
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
+
+        <!-- Card -->
+        <div class="card hoverable">
+
+          <!-- Card image -->
+          <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/58.jpg" alt="Card image cap">
+
+          <!-- Card content -->
+          <div class="card-body">
+
+            <!-- Title -->
+            <a href="#!" class="black-text">Aplicación Móvil Multiplataforma para una Zapatería</a>
+            <!-- Text -->
+            <p class="card-title text-muted font-small mt-3 mb-2">Introduciendome en el desarrollo movil, desarrolle una aplicacion movil, en donde se trabaja con base de datos</p>
+
+            <button type="button" class="btn btn-flat text-primary p-0 mx-0">Read more<i class="fa fa-angle-right ml-2"></i></button>
+
+          </div>
+
+        </div>
+        <!-- Card -->
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
+
+        <!-- Card -->
+        <div class="card hoverable">
+
+          <!-- Card image -->
+          <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/project4.jpg" alt="Card image cap">
+
+          <!-- Card content -->
+          <div class="card-body">
+
+            <!-- Title -->
+            <a href="#!" class="black-text">Top 5 content marketing strategies</a>
+            <!-- Text -->
+            <p class="card-title text-muted font-small mt-3 mb-2">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title.</p>
+
+            <button type="button" class="btn btn-flat text-primary p-0 mx-0">Read more<i class="fa fa-angle-right ml-2"></i></button>
+
+          </div>
+
+        </div>
+        <!-- Card -->
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-lg-4 col-md-6 mb-0">
+
+        <!-- Card -->
+        <div class="card hoverable">
+
+          <!-- Card image -->
+          <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/88.jpg" alt="Card image cap">
+
+          <!-- Card content -->
+          <div class="card-body">
+
+            <!-- Title -->
+            <a href="#!" class="black-text">Best practices for minimal design</a>
+            <!-- Text -->
+            <p class="card-title text-muted font-small mt-3 mb-2">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title.</p>
+
+            <button type="button" class="btn btn-flat text-primary p-0 mx-0">Read more<i class="fa fa-angle-right ml-2"></i></button>
+
+          </div>
+
+        </div>
+        <!-- Card -->
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+    <br>
+  </section>
+  <!--Section: Content-->
+
+
+</div>
+      </section>
+
+
+
+      <footer class="page-footer font-small stylish-color-dark pt-0">
+        <!-- <h2 class="text-center">Redes Sociales</h2>
+        <ul class="list-unstyled list-inline text-center" id="footerredes">
+          <li class="list-inline-item">
+            <a class="btn-floating" href="https://twitter.com/JosLuis35878367">
+              <i class="icon-twitter"></i>
+            </a>
+          </li>
+          </li>
+          <li class="list-inline-item">
+            <a class="btn-floating" href="https://www.linkedin.com/in/josé-luis-badillo-gonzález-59b3a919a">
+              <i class="icon-linkedin"></i>
+            </a>
+          </li>
+           <li class="list-inline-item">
+            <a class="btn-floating">
+              <i class="icon-blogger"></i>
+            </a>
+          </li>
+        </ul> -->
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+          <a href="https://joseluising.github.io/">joseluising</a>
+        </div>
+      </footer>
+
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.15.0/js/mdb.min.js"></script>
     <script type="text/javascript">
-      $(function() {$('.countdown').countdown({date: "April 15, 2020 12:00:00"});});
-    </script>
+        $('.navbar-nav li a').on('click', function(){
+    if(!$( this ).hasClass('dropdown-toggle')){
+        $('.navbar-collapse').collapse('hide');
+    }
+});
+          $(document).on("click",function(e) {
+
+         var container = $("#container");
+
+            if (!container.is(e.target) && container.has(e.target).length === 0) {
+               $('.navbar-collapse').collapse('hide');
+
+            }
+     });
+      </script>
   </body>
 </html>

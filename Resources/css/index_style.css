@@ -1,61 +1,58 @@
-html,body{
-	font-size: 15px;
-background-color: #136a8a;  /* fallback for old browsers */
-background-color: -webkit-linear-gradient(to right, #267871, #136a8a);  /* Chrome 10-25, Safari 5.1-6 */
-background-color: linear-gradient(to right, #267871, #136a8a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	background-size: cover;
-	background-repeat: no-repeat;
-	padding-top: 10px;
+html{
+	font-size: 23px;
+	scroll-behavior: smooth;
 }
 
-#box1 p{
+.portada{
+background: #1488CC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#footerredes .icon-twitter{
+	background-color: #FFFFFF;
+	border-radius: 100%;
+	color: #289BD7;
+	font-size: 45px;
+}
+#footerredes .icon-twitter:hover{
+	background-color: #289BD7;
+	border-radius: 100%;
 	color: #FFFFFF;
-	text-align: center;
-	font-family: 'Fredoka One', cursive;
-	padding-top: 10px;
-	font-size: 2rem;
+	font-size: 45px;
+	bottom: 80px;
 }
 
-#counter .countdown{
-	text-align: center;
+#footerredes .icon-linkedin{
+	background-color: #FFFFFF;
+	border-radius: 100%;
+	color: #3367AD;
+	font-size: 45px;
+}
+#footerredes .icon-linkedin:hover{
+	background-color: #3367AD;
+	border-radius: 100%;
 	color: #FFFFFF;
-	font-family: 'Kalam', cursive;
-	font-size: 2rem;
+	font-size: 45px;
+	bottom: 80px;
 }
 
-#icons {
-	text-align: center;
+#footerredes .icon-blogger{
+	background-color: #FFFFFF;
+	border-radius: 100%;
+	color: #FF7200;
+	font-size: 45px;
 }
-
-#icons .icon-linkedin, .icon-facebook, .icon-twitter{
+#footerredes .icon-blogger:hover{
+	background-color: #FF7200;
+	border-radius: 100%;
 	color: #FFFFFF;
-	position: relative;
-	transition: all;
-	font-size: 4rem;
+	font-size: 45px;
+	bottom: 80px;
 }
 
-#icons .icon-linkedin:hover{
-	bottom: 10px;
-}
-
-#icons .icon-facebook:hover{
-	bottom: 10px;
-}
-
-#icons .icon-twitter:hover{
-	bottom: 10px;
-}
-
-/*.principal{
-	background: url(../Images/Portada.jpeg);
-	background-size: cover;
-	height: 500px;
-	overflow: hidden;
-}
-
-.titulo{
-  color: #FFFFFF;
-  font-size: 2.5rem;
-  text-align: center;
-  padding-top: 100px;
-}*/
+/*@include media-breakpoint-down(xs) { ... }
+@include media-breakpoint-down(sm) { ... }
+@include media-breakpoint-down(md) { ... }
+@include media-breakpoint-down(lg) { ... }*/
