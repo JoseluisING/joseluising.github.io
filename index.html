@@ -22,429 +22,204 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.15.0/css/mdb.min.css" rel="stylesheet">
+
+      <link rel="stylesheet" type="text/css" href="Resources/css/normalize.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="Resources/css/demo.css" /> -->
+    <link rel="stylesheet" type="text/css" href="Resources/css/component.css" />
+
     <title>Portafolio Desarrollador</title>
   </head>
   <body ondragstart="return false" onselectstart="return false" oncontextmenu="return false">
-
-    <section>
-         <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #252525;">
-            <a class="navbar-brand" href="#">Portafolio</a>
+    <div class="containr">
+    <section class="section section--menu" id="Ferdinand">
+         <nav class="navbar navbar-expand-md navbar-dark fixed-top menu menu--ferdinand" style="background-color: #FFFFFF;">
+            <a class="navbar-brand menu__link" href="#" style="color: #B830F7;">Portafolio</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" stiyle="border: hidden;">
-              <span class="lnr lnr-screen" style="color: #FFFFFF; font-size: 25px;"></span>
+              <span class="lnr lnr-menu" style="color: #B830F7; font-size: 25px;"></span>
             </button>
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
-              <ul class="navbar-nav" style="justify-content: flex-end; display: flex; flex-grow: 1;">
-                <li class="nav-item">
-                  <a class="nav-link" href="#box1" style="color: #FFFFFF;">Inicio</a>
+              <ul class="navbar-nav menu__list" style="justify-content: flex-end; display: flex; flex-grow: 1;">
+                <li class="nav-item menu__item menu__item--current">
+                  <a class="nav-link menu__link" href="#box1" style="color: #B830F7;">Inicio</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#section2" style="color: #FFFFFF;">Sobre mi</a>
+                <li class="nav-item menu__item">
+                  <a class="nav-link menu__link" href="#box2" style="color: #B830F7;">Sobre mi</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#section3" style="color: #FFFFFF;">Certificaciones</a>
+                <li class="nav-item menu__item">
+                  <a class="nav-link menu__link" href="#box3" style="color: #B830F7;">Habilidades</a>
                 </li>
-                <li class="nav-item">
-                  <!-- <a class="nav-link" href="#" style="color: #FFFFFF;">Contacto</a> -->
+                <li class="nav-item menu__item">
+                  <a class="nav-link menu__link" href="#box3" style="color: #B830F7;">Certificaciones</a>
+                </li>
+                <li class="nav-item menu__item">
+                  <a class="nav-link menu__link" href="#box4" style="color: #B830F7;">Contacto</a>
                 </li>
               </ul>
             </div>
           </nav>
       </section>
-      <section id="box1" >
-            <div class="jumbotron card card-image portada ab">
-              <div class="text-white text-center py-5 px-1">
-                <div>
-                  <h2 class="card-title h1-responsive pt-3 mb-5 font-bold"><strong>Desarrollador de Software Multiplataforma</strong></h2>
-                  <p class="mx-1 mb-5 text-center ">Desarrollador web, Android e iOS, Front-end, E-Learning, E-Commerce y WordPress.</p>
-                  <a class="btn btn-outline-white btn-md" href="#section1"><i class="fas fa-clone left"></i>Saber más...</a>
-                  <!-- <a class="btn btn-outline-white btn-md"><i class="fas fa-clone left"></i>Contactar</a> -->
+
+      <section id="box1">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6" style="margin-top: 10%;">
+                  <h1 style="color: #8E10D7; font-weight: bold; font-size: 50px; text-align: unset; font-family: fuente, sans-serif;">Desarrollador de Software Multiplataforma</h1>
+                  <p style="font-family: sans-serif; opacity: 0.9; text-align: justify;">Desarrollador web, Android e iOS, Front-end, Back-end, E-Learning, E-Commerce y WordPress.</p>
+                  <a href="mailto:joseoficial1999@gmail.com" class="btn btn-success" style="border-radius: 30px; background: #7F00FF;background: -webkit-linear-gradient(to right, #E100FF, #7F00FF); background: linear-gradient(to right, #E100FF, #7F00FF); font-size: 1rem;"><span class="icon-email" style="text-align: left;"></span> Contactar</a>
+                  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=J7HYSF2FSEVYA&source=url" class="btn btn-success" style="border-radius: 30px; background: #8E2DE2; background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2); background: linear-gradient(to right, #4A00E0, #8E2DE2); font-size: 1rem;"><span class="icon-coffee" style="text-align: left;"></span> Donar una taza de café</a>
+                </div>
+                <div class="col-md-6 text-center" style="margin-top: 10%;">
+                  <figure>
+                    <img src="Resources/Images/escritorio.svg" class="img-fluid" style="width: auto; height: 480px;">
+                  </figure>
                 </div>
               </div>
             </div>
-            <div class="wave" style="height: 150px; overflow: hidden; margin-top: -50px;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-0.00,49.85 C150.00,149.60 271.37,-49.87 500.00,49.85 L500.00,0.00 L-0.00,0.00 Z" style="stroke: none; fill: #09f;"></path></svg></div>
-
+            <div class="wave" style="height: 150px; overflow: hidden; margin-top: -50px;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-0.00,49.85 C150.00,149.60 271.37,-49.87 500.00,49.85 L500.00,0.00 L-0.00,0.00 Z" style="stroke: none; fill: #EAEAEA;"></path></svg></div>
       </section>
 
-      <section id="section1">
+      <section id="box2">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h1>Información Personal</h1>
+              <hr style="width: 320px; background-color: #F911BA; height: 2px; margin-top: -20px;">
+              <p>Actualmente estoy cursando el 6to cuatrimestre de la Ingeniería en Tecnologías de la Información y Comunicación en la Universidad Tecnológica de Tecámac.</p>
+            </div>
+            <div class="col-md-6">
+              <figure>
+                <img src="Resources/Images/undraw_programming_2svr.svg" class="img-fluid" style="width: auto; height: 480px;">
+              </figure>
+            </div>
+            <div class="col-md-6">
+              <span class="icon-heart" style="font-size: 30px; color: #C02EEA; font-weight: bold;"> Labor Social</span>
+              <p style="font-size: large; text-align: justify;">Si eres una institución educativa, organización sin fines de lucro, si en algo puedo ayudarte, ofrezco mis servicios de manera <strong style="color: #DC0F0F;">GRATUITA.</strong></p>
+              <span class="icon-graduation-cap" style="font-size: 30px; color: #2AB84B; font-weight: bold;"> Formación Académica</span>
+              <p style="font-size: large; text-align: justify;">Termine una carrera Técnica en Programación, Finalice el TSU en Desarrollo de Software Multiplataforma y Curso la Ingeniería en Tecnologías de la Información y Comunicación.</p>
+              <span class="icon-hourglass" style="font-size: 30px; color: #EE4D0D; font-weight: bold;"> Tiempo Libre</span>
+              <p style="font-size: large; text-align: justify;">Apasionado por el deporte, la música, la programación y con muchas ganas de aprender algo nuevo todos los días.</p>
+            </div>
+          </div>
+        </div>
+        <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-10.50,152.06 C140.18,82.18 543.67,-30.02 547.06,18.20 L535.78,-16.24 L-0.00,-0.00 Z" style="stroke: none; fill: #EAEAEA;"></path></svg></div>
+      </section>
+
+      <section id="box3">
+        <h1 style="text-align: center;">¡Porque nunca se termina de aprender!</h1>
+        <hr style="width: 560px; background-color: #F911BA; height: 2px; margin-top: -20px;">
+        <div class="container-fluid">
+          <div class="row">
+
+            <div class="col-lg-3 col-md-6 mb-5 text-center">
+                <h4 class="font-weight-bold mb-3">
+                  <img src="Resources/Images/laravel.svg" height="80px;" width="80px;"> Laravel
+                </h4>
+                <p class="text-muted mb-lg-0">
+                  +1 año de experiencia
+                </p>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-5 text-center">
+                <h4 class="font-weight-bold mb-3">
+                  <img src="Resources/Images/wordpress-blue.svg" height="80px;" width="80px;"> WordPress
+                </h4>
+                <p class="text-muted mb-lg-0">
+                  +5 años de experiencia
+                </p>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-5 text-center">
+                <h4 class="font-weight-bold mb-3">
+                  <img src="Resources/Images/prestashop.svg" height="80px;" width="80px;"> PrestaShop
+                </h4>
+                <p class="text-muted mb-lg-0">
+                  +5 años de experiencia
+                </p>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-5 text-center">
+                <h4 class="font-weight-bold mb-3">
+                  <img src="Resources/Images/bootstrap-4.svg" height="80px;" width="80px;"> Bootstrap
+                </h4>
+                <p class="text-muted mb-lg-0">
+                  +2 años de experiencia
+                </p>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-5 text-center">
+                <h4 class="font-weight-bold mb-3">
+                  <img src="Resources/Images/xamarin.svg" height="80px;" width="80px;"> Xamarin
+                </h4>
+                <p class="text-muted mb-lg-0">
+                  +3 meses de experiencia
+                </p>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-5 text-center">
+                <h4 class="font-weight-bold mb-3">
+                  <img src="Resources/Images/mysql-6.svg" height="80px;" width="80px;"> MySQL
+                </h4>
+                <p class="text-muted mb-lg-0">
+                  +1 año de experiencia
+                </p>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-5 text-center">
+                <h4 class="font-weight-bold mb-3">
+                  <img src="Resources/Images/html-5.svg" height="80px;" width="80px;"> HTML
+                </h4>
+                <p class="text-muted mb-lg-0">
+                  +6 años de experiencia
+                </p>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-5 text-center">
+                <h4 class="font-weight-bold mb-3">
+                  <img src="Resources/Images/css-5.svg" height="80px;" width="80px;"> CSS
+                </h4>
+                <p class="text-muted mb-lg-0">
+                  +6 años de experiencia
+                </p>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-5 text-center">
+                <h4 class="font-weight-bold mb-3">
+                  <img src="Resources/Images/Moodle-logo.png" height="80px;" width="120px;">
+                </h4>
+                <p class="text-muted mb-lg-0">
+                  +5 años de experiencia
+                </p>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-5 text-center">
+                <h4 class="font-weight-bold mb-3">
+                  <img src="Resources/Images/woocommerce.svg" height="80px;" width="80px;">Commerce
+                </h4>
+                <p class="text-muted mb-lg-0">
+                  +3 años de experiencia
+                </p>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-5 text-center">
+                <h4 class="font-weight-bold mb-3">
+                  <img src="Resources/Images/adobe-xd-1.svg" height="80px;" width="80px;">
+                </h4>
+                <p class="text-muted mb-lg-0">
+                  +6 meses de experiencia
+                </p>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-5 text-center">
+                <h4 class="font-weight-bold mb-3">
+                  <img src="Resources/Images/javascript-1.svg" height="80px;" width="80px;">JavaScrip
+                </h4>
+                <p class="text-muted mb-lg-0">
+                  +6 meses de experiencia
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
 
-<section id="section2" >
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-12">
-        <h1 class="text-center">Sobre mi...</h1>
-        <p style="margin-left: 50px; margin-right: 50px; text-align: center;">Actualmente estoy cursando el 6to cuatrimestre de la Ingeniería en Tecnologías de la Información y Comunicación en la Universidad Tecnológica de Tecámac adquiriendo competencias profesionales, para desarrollar software de calidad, me encanta el desarrollo web, amante de transmitir conocimientos, apasionado por aprender y actualizarme continuamente.</p>
-        <img src="Resources/Images/undraw_static_website_0107.svg" class="img-fluid" style="display: block; margin: auto; margin-bottom: 50px;">
-        <hr style="background-color: #138CBF;">
-        <h1 style="text-align: center; color: #08C762; margin-bottom: 20px;">¡Porque nunca se termina de aprender!</h1>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-5 text-center">
 
-        <h4 class="font-weight-bold mb-3">
-          <img src="Resources/Images/laravel.svg" height="80px;" width="80px;"> Laravel
-        </h4>
-        <p class="text-muted mb-lg-0">
-          +1 año de experiencia
-        </p>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-5 text-center">
-        <h4 class="font-weight-bold mb-3">
-          <img src="Resources/Images/wordpress-blue.svg" height="80px;" width="80px;"> WordPress
-        </h4>
-        <p class="text-muted mb-lg-0">
-          +5 años de experiencia
-        </p>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-5 text-center">
-        <h4 class="font-weight-bold mb-3">
-          <img src="Resources/Images/prestashop.svg" height="80px;" width="80px;"> PrestaShop
-        </h4>
-        <p class="text-muted mb-lg-0">
-          +5 años de experiencia
-        </p>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-5 text-center">
-        <h4 class="font-weight-bold mb-3">
-          <img src="Resources/Images/bootstrap-4.svg" height="80px;" width="80px;"> Bootstrap
-        </h4>
-        <p class="text-muted mb-lg-0">
-          +2 años de experiencia
-        </p>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-5 text-center">
-        <h4 class="font-weight-bold mb-3">
-          <img src="Resources/Images/xamarin.svg" height="80px;" width="80px;"> Xamarin
-        </h4>
-        <p class="text-muted mb-lg-0">
-          +3 meses de experiencia
-        </p>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-5 text-center">
-        <h4 class="font-weight-bold mb-3">
-          <img src="Resources/Images/mysql-6.svg" height="80px;" width="80px;"> MySQL
-        </h4>
-        <p class="text-muted mb-lg-0">
-          +1 año de experiencia
-        </p>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-5 text-center">
-        <h4 class="font-weight-bold mb-3">
-          <img src="Resources/Images/html-5.svg" height="80px;" width="80px;"> HTML
-        </h4>
-        <p class="text-muted mb-lg-0">
-          +6 años de experiencia
-        </p>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-5 text-center">
-        <h4 class="font-weight-bold mb-3">
-          <img src="Resources/Images/css-5.svg" height="80px;" width="80px;"> CSS
-        </h4>
-        <p class="text-muted mb-lg-0">
-          +6 años de experiencia
-        </p>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-5 text-center">
-        <h4 class="font-weight-bold mb-3">
-          <img src="Resources/Images/Moodle.svg" height="80px;" width="120px;">
-        </h4>
-        <p class="text-muted mb-lg-0">
-          +5 años de experiencia
-        </p>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-5 text-center">
-        <h4 class="font-weight-bold mb-3">
-          <img src="Resources/Images/woocommerce.svg" height="80px;" width="80px;">Commerce
-        </h4>
-        <p class="text-muted mb-lg-0">
-          +3 años de experiencia
-        </p>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-5 text-center">
-        <h4 class="font-weight-bold mb-3">
-          <img src="Resources/Images/adobe-xd-1.svg" height="80px;" width="80px;">
-        </h4>
-        <p class="text-muted mb-lg-0">
-          +6 meses de experiencia
-        </p>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-5 text-center">
-        <h4 class="font-weight-bold mb-3">
-          <img src="Resources/Images/javascript-1.svg" height="80px;" width="80px;">JavaScrip
-        </h4>
-        <p class="text-muted mb-lg-0">
-          +6 meses de experiencia
-        </p>
-      </div>
-    </div>
-    <div id="section3"></div>
-  </div>
 
-</section>
-<hr style="background-color: #138CBF;">
-
-
-<div class="container mt-1">
-
-
-  <!--Section: Content-->
-
-    <!-- Section heading -->
-    <h3 class="text-center font-weight-bold mb-5">Certificaciones</h3>
-
-    <p class="text-center">Adquirí competencias tecnológicas por Google, Cisco Systems, Microsoft, SoloLearn, Udemy, Aprende.org, cuento con 11 certificaciones en total más una carrera Técnica en Programación.</p>
-
-    <!-- Grid row -->
-    <div class="row">
-
-      <!-- Grid column -->
-      <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
-
-        <!-- Card -->
-        <div class="card hoverable">
-
-          <!-- Card image -->
-          <img class="card-img-top img-fluid" src="Resources/Images/GoogleWeb1.svg" style="height: 250px; width: 350px; display: block; margin: auto;">
-
-          <!-- Card content -->
-          <div class="card-body">
-
-            <!-- Title -->
-            <a class="black-text">Introducción al Desarrollo Web: HTML y CSS (1/2)</a>
-            <!-- Text -->
-            <p class="card-title text-muted font-small mt-3 mb-2">Certificación de Google por la Universidad de Alicante en España.</p>
-
-            <!-- <button type="button" class="btn btn-flat text-primary p-0 mx-0"><i class="fa fa-angle-right ml-2"></i></button> -->
-
-          </div>
-
-        </div>
-        <!-- Card -->
-
-      </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
-      <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
-
-        <!-- Card -->
-        <div class="card hoverable">
-
-          <!-- Card image -->
-          <img class="card-img-top img-fluid" src="Resources/Images/GoogleWeb2.svg" style="height: 250px; width: 350px; display: block; margin: auto;">
-
-          <!-- Card content -->
-          <div class="card-body">
-
-            <!-- Title -->
-            <a class="black-text">Introducción al Desarrollo Web: HTML y CSS (2/2)</a>
-            <!-- Text -->
-            <p class="card-title text-muted font-small mt-3 mb-2">Certificación de Google por la Universidad de Alicante en España.</p>
-
-            <!-- <button type="button" class="btn btn-flat text-primary p-0 mx-0">Read more<i class="fa fa-angle-right ml-2"></i></button> -->
-
-          </div>
-
-        </div>
-        <!-- Card -->
-
-      </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
-      <div class="col-lg-4 col-md-6 mb-0">
-
-        <!-- Card -->
-        <div class="card hoverable">
-
-          <!-- Card image -->
-          <img class="card-img-top img-fluid" src="Resources/Images/LaravelCertificacion.svg" style="height: 250px; width: 350px; display: block; margin: auto;">
-
-          <!-- Card content -->
-          <div class="card-body">
-
-            <!-- Title -->
-            <a class="black-text">Curso en linea de Laravel y Vue.js</a>
-            <!-- Text -->
-            <p class="card-title text-muted font-small mt-3 mb-2">Complete con éxito el curso Laravel y Vue Js avanzado en Udemy</p>
-
-            <!-- <button type="button" class="btn btn-flat text-primary p-0 mx-0">Read more<i class="fa fa-angle-right ml-2"></i></button> -->
-
-          </div>
-
-        </div>
-        <!-- Card -->
-
-      </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
-      <div class="col-lg-4 col-md-12 mb-lg-0 mb-4 py-3">
-
-        <!-- Card -->
-        <div class="card hoverable">
-
-          <!-- Card image -->
-          <img class="card-img-top img-fluid" src="Resources/Images/WordPress.svg" style="height: 250px; width: 350px; display: block; margin: auto;">
-
-          <!-- Card content -->
-          <div class="card-body">
-
-            <!-- Title -->
-            <a class="black-text">WordPress - Curso Completo WordPress y Sitios Web</a>
-            <!-- Text -->
-            <p class="card-title text-muted font-small mt-3 mb-2">Complete con éxito el curso en Udemy</p>
-
-            <!-- <button type="button" class="btn btn-flat text-primary p-0 mx-0"><i class="fa fa-angle-right ml-2"></i></button> -->
-
-          </div>
-
-        </div>
-        <!-- Card -->
-
-      </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
-      <div class="col-lg-4 col-md-12 mb-lg-0 mb-4 py-3">
-
-        <!-- Card -->
-        <div class="card hoverable">
-
-          <!-- Card image -->
-          <img class="card-img-top img-fluid" src="Resources/Images/60Herramientas.svg" style="height: 250px; width: 350px; display: block; margin: auto;">
-
-          <!-- Card content -->
-          <div class="card-body">
-
-            <!-- Title -->
-            <a class="black-text">Curso en linea 60+ Herramientas de desarrollo y diseño web</a>
-            <!-- Text -->
-            <p class="card-title text-muted font-small mt-3 mb-2">Complete con éxito el curso en Udemy</p>
-
-            <!-- <button type="button" class="btn btn-flat text-primary p-0 mx-0"><i class="fa fa-angle-right ml-2"></i></button> -->
-
-          </div>
-
-        </div>
-        <!-- Card -->
-
-      </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
-      <div class="col-lg-4 col-md-12 mb-lg-0 mb-4 py-3">
-
-        <!-- Card -->
-        <div class="card hoverable">
-
-          <!-- Card image -->
-          <img class="card-img-top img-fluid" src="Resources/Images/LinuxCertificado.svg" style="height: 250px; width: 350px; display: block; margin: auto;">
-
-          <!-- Card content -->
-          <div class="card-body">
-
-            <!-- Title -->
-            <a class="black-text">NDG Linux Unhatched Course</a>
-            <!-- Text -->
-            <p class="card-title text-muted font-small mt-3 mb-2">Certificación expedida de Cisco Networking Academy por Network Development Group</p>
-
-            <!-- <button type="button" class="btn btn-flat text-primary p-0 mx-0"><i class="fa fa-angle-right ml-2"></i></button> -->
-
-          </div>
-
-        </div>
-        <!-- Card -->
-
-      </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
-      <div class="col-lg-4 col-md-12 mb-lg-0 mb-4 py-3">
-
-        <!-- Card -->
-        <div class="card hoverable">
-
-          <!-- Card image -->
-          <img class="card-img-top img-fluid" src="Resources/Images/HtmlCertificacion.svg" style="height: 250px; width: 350px; display: block; margin: auto;">
-
-          <!-- Card content -->
-          <div class="card-body">
-
-            <!-- Title -->
-            <a class="black-text">Certificación en HTML Fundamentals Course</a>
-            <!-- Text -->
-            <p class="card-title text-muted font-small mt-3 mb-2">Complete con éxito el curso en SoloLearn</p>
-
-            <!-- <button type="button" class="btn btn-flat text-primary p-0 mx-0"><i class="fa fa-angle-right ml-2"></i></button> -->
-
-          </div>
-
-        </div>
-        <!-- Card -->
-
-      </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
-      <div class="col-lg-4 col-md-12 mb-lg-0 mb-4 py-3">
-
-        <!-- Card -->
-        <div class="card hoverable">
-
-          <!-- Card content -->
-          <div class="card-body">
-
-            <!-- Title -->
-            <a class="black-text text-center" style="font-size: 10rem; display: block; margin: auto;">+4</a>
-            <!-- Text -->
-            <p class="card-title text-muted font-small mt-3 mb-2 text-center">Certificaciones</p>
-
-            <!-- <button type="button" class="btn btn-flat text-primary p-0 mx-0"><i class="fa fa-angle-right ml-2"></i></button> -->
-
-          </div>
-
-        </div>
-        <!-- Card -->
-
-      </div>
-      <!-- Grid column -->
-
-    </div>
-    <!-- Grid row -->
-    <br>
-  </section>
-  <!--Section: Content-->
-
-
-</div>
-
-
-
-      <footer class="page-footer font-small stylish-color-dark pt-0">
-        <!-- <h2 class="text-center">Redes Sociales</h2>
-        <ul class="list-unstyled list-inline text-center" id="footerredes">
-          <li class="list-inline-item">
-            <a class="btn-floating" href="https://twitter.com/JosLuis35878367">
-              <i class="icon-twitter"></i>
-            </a>
-          </li>
-          </li>
-          <li class="list-inline-item">
-            <a class="btn-floating" href="https://www.linkedin.com/in/josé-luis-badillo-gonzález-59b3a919a">
-              <i class="icon-linkedin"></i>
-            </a>
-          </li>
-           <li class="list-inline-item">
-            <a class="btn-floating">
-              <i class="icon-blogger"></i>
-            </a>
-          </li>
-        </ul> -->
-        <div class="footer-copyright text-center py-3">© 2020 Copyright:
-          <a href="https://joseluising.github.io/">joseluising</a>
+      <footer class="page-footer font-small stylish-color-white pt-0">
+        <div class="footer-copyright text-center py-3" style="color: #0B0B0B;">© 2020 Copyright:
+          <a href="https://joseluising.github.io/" style="color: #0B0B0B;">José Luis Badillo González</a>
         </div>
       </footer>
+      </div>
 
     <!-- Bootstrap tooltips -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
@@ -454,5 +229,46 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.15.0/js/mdb.min.js"></script>
     <!-- Colors code -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" integrity="sha256-qM7QTJSlvtPSxVRjVWNM2OfTAz/3k5ovHOKmKXuYMO4=" crossorigin="anonymous"></script>
+
+    <script src="Resources/js/classie.js"></script>
+    <script src="Resources/js/clipboard.min.js"></script>
+    <script src="Resources/js/menuscript.js"></script>
+
+    <script>
+    (function() {
+      [].slice.call(document.querySelectorAll('.menu')).forEach(function(menu) {
+        var menuItems = menu.querySelectorAll('.menu__link'),
+          setCurrent = function(ev) {
+            ev.preventDefault();
+
+            var item = ev.target.parentNode; // li
+
+            // return if already current
+            if (classie.has(item, 'menu__item--current')) {
+              return false;
+            }
+            // remove current
+            classie.remove(menu.querySelector('.menu__item--current'), 'menu__item--current');
+            // set current
+            classie.add(item, 'menu__item--current');
+          };
+
+        [].slice.call(menuItems).forEach(function(el) {
+          el.addEventListener('click', setCurrent);
+        });
+      });
+
+      [].slice.call(document.querySelectorAll('.link-copy')).forEach(function(link) {
+        link.setAttribute('data-clipboard-text', location.protocol + '//' + location.host + location.pathname + '#' + link.parentNode.id);
+        new Clipboard(link);
+        link.addEventListener('click', function() {
+          classie.add(link, 'link-copy--animate');
+          setTimeout(function() {
+            classie.remove(link, 'link-copy--animate');
+          }, 300);
+        });
+      });
+    })(window);
+    </script>
   </body>
 </html>
