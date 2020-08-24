@@ -1,5 +1,6 @@
 html{
 	scroll-behavior: smooth;
+	width: 100%;
 }
 
 .portada{
@@ -70,6 +71,11 @@ background-repeat: no-repeat;
 
 }
 
+.botona:active{
+	color: red;
+}
+
+
 @font-face {
   font-family:fuente;
   url:('https://fonts.googleapis.com/css2?family=Krona+One&family=Staatliches&display=swap');
@@ -92,7 +98,66 @@ p {
   }
 }
 
-/*@include media-breakpoint-down(xs) { ... }
-@include media-breakpoint-down(sm) { ... }
-@include media-breakpoint-down(md) { ... }
-@include media-breakpoint-down(lg) { ... }*/
+.titulo{
+	font-size: 50px;
+}
+
+.boton:hover{
+          background-color: #DDDFDE;
+          bottom: -1px;
+          border-radius: 15px;
+        }
+
+        .boton:active{
+          background-color: #DDDFDE;
+          bottom: -1px;
+          border-radius: 15px;
+        }
+
+      #nav-link{
+        color: #9E15DE;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: 'Rowdies', cursive;
+        }
+
+@media only screen and (max-width: 768px) {
+	.titulo{
+		font-size:40px;
+		margin-top: 12px;
+	}
+	.imgdesk{
+		margin-top: -50px;
+	}
+	.titulodos{
+		margin-top: -40px;
+	}
+	.imgdeveloper{
+		margin-top: -150px;
+	}
+	.textodos{
+		margin-top: -90px;
+	}
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+@media only screen and (min-width: 765px) and (max-width: 851px) {
+	.titulo{
+		margin-top: 50px;
+	}
+}
