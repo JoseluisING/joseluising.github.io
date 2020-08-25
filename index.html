@@ -27,50 +27,58 @@
     <!-- <link rel="stylesheet" type="text/css" href="Resources/css/demo.css" /> -->
     <link rel="stylesheet" type="text/css" href="Resources/css/component.css" />
 
+
+    <link href="https://fonts.googleapis.com/css2?family=Overlock+SC&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
     <title>Portafolio Desarrollador</title>
   </head>
   <body ondragstart="return false" onselectstart="return false" oncontextmenu="return false">
     <div class="containr">
-    <section class="section section--menu" id="Ferdinand">
-         <nav class="navbar navbar-expand-md navbar-dark fixed-top menu menu--ferdinand" style="background-color: #FFFFFF;">
-            <a class="navbar-brand menu__link" href="#" style="color: #B830F7;">Portafolio</a>
+    <section class="section">
+         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #FFFFFF;">
+            <a class="navbar-brand" href="#" style="color: #9E15DE; font-weight: bold; text-transform: uppercase; font-family: 'Rowdies', cursive;">Portafolio</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" stiyle="border: hidden;">
-              <span class="lnr lnr-menu" style="color: #B830F7; font-size: 25px;"></span>
+              <span class="lnr lnr-menu" style="color: #9E15DE; font-size: 25px;"></span>
             </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-              <ul class="navbar-nav menu__list" style="justify-content: flex-end; display: flex; flex-grow: 1;">
-                <li class="nav-item menu__item menu__item--current">
-                  <a class="nav-link menu__link" href="#box1" style="color: #B830F7;">Inicio</a>
+            <div class="collapse navbar-collapse text-center" id="collapsibleNavbar">
+              <ul class="navbar-nav active" style="justify-content: flex-end; display: flex; flex-grow: 1;">
+                <li class="nav-item">
+                  <a class="nav-link bmenu icon-cloud boton" href="#seccion1" id="nav-link">Inicio</a>
                 </li>
-                <li class="nav-item menu__item">
-                  <a class="nav-link menu__link" href="#box2" style="color: #B830F7;">Sobre mi</a>
+                <li class="nav-item">
+                  <a class="nav-link icon-user boton" href="#seccion2" id="nav-link">Sobre mi</a>
                 </li>
-                <li class="nav-item menu__item">
-                  <a class="nav-link menu__link" href="#box3" style="color: #B830F7;">Habilidades</a>
+                <li class="nav-item">
+                  <a class="nav-link icon-crown boton" href="#seccion3" id="nav-link">Habilidades</a>
                 </li>
-                <li class="nav-item menu__item">
-                  <a class="nav-link menu__link" href="#box3" style="color: #B830F7;">Certificaciones</a>
+                <li class="nav-item">
+                  <a class="nav-link icon-award boton" href="#seccion4" id="nav-link"> Certificaciones</a>
                 </li>
-                <li class="nav-item menu__item">
-                  <a class="nav-link menu__link" href="#box4" style="color: #B830F7;">Contacto</a>
+                <li class="nav-item">
+                  <a class="nav-link icon-suitcase boton" href="#seccion5" style="" id="nav-link"> Proyectos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link icon-dollar boton" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=J7HYSF2FSEVYA&source=url" id="nav-link" >Donar</a>
                 </li>
               </ul>
             </div>
           </nav>
       </section>
 
-      <section id="box1">
+      <section id="seccion1">
             <div class="container-fluid">
               <div class="row">
                 <div class="col-md-6" style="margin-top: 10%;">
-                  <h1 style="color: #8E10D7; font-weight: bold; font-size: 50px; text-align: unset; font-family: fuente, sans-serif;">Desarrollador de Software Multiplataforma</h1>
+                  <p class="titulo" style="color: #8E10D7; font-weight: bold; text-align: unset; font-family: fuente, sans-serif;">Desarrollador de Software Multiplataforma</p>
                   <p style="font-family: sans-serif; opacity: 0.9; text-align: justify;">Desarrollador web, Android e iOS, Front-end, Back-end, E-Learning, E-Commerce y WordPress.</p>
                   <a href="mailto:joseoficial1999@gmail.com" class="btn btn-success" style="border-radius: 30px; background: #7F00FF;background: -webkit-linear-gradient(to right, #E100FF, #7F00FF); background: linear-gradient(to right, #E100FF, #7F00FF); font-size: 1rem;"><span class="icon-email" style="text-align: left;"></span> Contactar</a>
                   <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=J7HYSF2FSEVYA&source=url" class="btn btn-success" style="border-radius: 30px; background: #8E2DE2; background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2); background: linear-gradient(to right, #4A00E0, #8E2DE2); font-size: 1rem;"><span class="icon-coffee" style="text-align: left;"></span> Donar una taza de café</a>
                 </div>
                 <div class="col-md-6 text-center" style="margin-top: 10%;">
                   <figure>
-                    <img src="Resources/Images/escritorio.svg" class="img-fluid" style="width: auto; height: 480px;">
+                    <img src="Resources/Images/escritorio.svg" class="img-fluid imgdesk" style="width: auto; height: 480px;">
                   </figure>
                 </div>
               </div>
@@ -78,22 +86,22 @@
             <div class="wave" style="height: 150px; overflow: hidden; margin-top: -50px;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-0.00,49.85 C150.00,149.60 271.37,-49.87 500.00,49.85 L500.00,0.00 L-0.00,0.00 Z" style="stroke: none; fill: #EAEAEA;"></path></svg></div>
       </section>
 
-      <section id="box2">
+      <section id="seccion2">
         <div class="container">
           <div class="row">
             <div class="col-md-12 text-center">
-              <h1>Información Personal</h1>
-              <hr style="width: 320px; background-color: #F911BA; height: 2px; margin-top: -20px;">
-              <p>Actualmente estoy cursando el 6to cuatrimestre de la Ingeniería en Tecnologías de la Información y Comunicación en la Universidad Tecnológica de Tecámac.</p>
+              <h1 class="titulodos">Información Personal</h1>
+              <hr style="width: 60vw; background-color: #F911BA; height: 2px; margin-top: -20px;">
+              <p>Actualmente estoy cursando la Ingeniería en Tecnologías de la Información y Comunicación en la Universidad Tecnológica de Tecámac.</p>
             </div>
             <div class="col-md-6">
               <figure>
-                <img src="Resources/Images/undraw_programming_2svr.svg" class="img-fluid" style="width: auto; height: 480px;">
+                <img src="Resources/Images/undraw_programming_2svr.svg" class="img-fluid imgdeveloper" style="width: auto; height: 480px;">
               </figure>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 textodos">
               <span class="icon-heart" style="font-size: 30px; color: #C02EEA; font-weight: bold;"> Labor Social</span>
-              <p style="font-size: large; text-align: justify;">Si eres una institución educativa, organización sin fines de lucro, si en algo puedo ayudarte, ofrezco mis servicios de manera <strong style="color: #DC0F0F;">GRATUITA.</strong></p>
+              <p style="font-size: large; text-align: justify;">Si eres una institución de educación publica, organización sin fines de lucro, si en algo puedo ayudarte, ofrezco mis servicios de manera <strong style="color: #DC0F0F;">GRATUITA.</strong></p>
               <span class="icon-graduation-cap" style="font-size: 30px; color: #2AB84B; font-weight: bold;"> Formación Académica</span>
               <p style="font-size: large; text-align: justify;">Termine una carrera Técnica en Programación, Finalice el TSU en Desarrollo de Software Multiplataforma y Curso la Ingeniería en Tecnologías de la Información y Comunicación.</p>
               <span class="icon-hourglass" style="font-size: 30px; color: #EE4D0D; font-weight: bold;"> Tiempo Libre</span>
@@ -104,9 +112,9 @@
         <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-10.50,152.06 C140.18,82.18 543.67,-30.02 547.06,18.20 L535.78,-16.24 L-0.00,-0.00 Z" style="stroke: none; fill: #EAEAEA;"></path></svg></div>
       </section>
 
-      <section id="box3">
+      <section id="seccion3">
         <h1 style="text-align: center;">¡Porque nunca se termina de aprender!</h1>
-        <hr style="width: 560px; background-color: #F911BA; height: 2px; margin-top: -20px;">
+        <hr style="width: 60vw; background-color: #F911BA; height: 2px; margin-top: -20px;">
         <div class="container-fluid">
           <div class="row">
 
@@ -211,10 +219,60 @@
         </div>
       </section>
 
+      <section id="seccion4">
+        <div class="wave" style="height: 150px; overflow: hidden; margin-bottom: -5px;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-4.86,77.26 C98.42,-102.86 257.56,155.98 500.00,49.85 L500.00,149.60 L-0.00,149.60 Z" style="stroke: none; fill: #DEDCDC;"></path></svg></div>
+        <div class="container-fluid" style="background-color: #DEDCDC;">
+          <div class="row">
+            <div class="col-md-6 text-center">
+              <h1 style="font-family: 'Pacifico', cursive; font-size: 30px; text-align: center;">Certificaciones</h1>
+              <hr style="background-color: #F911BA; width: 40vw;  height: 2px; margin-top: -20px;">
+              <span style=" border-radius: 10px; font-size: 20px; ">+2 en desarrollo web proporcionado por Google</span><br>
+              <span style=" border-radius: 10px; font-size: 20px; ">+1 en HTML Fundamentals proporcionado por SoloLearn</span><br>
+              <span style=" border-radius: 10px; font-size: 20px; ">+2 en CCNA Routing and Switching: Principios e Introducción proporcionado por CISCO</span><br>
+              <span style=" border-radius: 10px; font-size: 20px; ">+1 en NDG Linux Unhatched course proporcionado por CISCO</span><br>
+              <span style=" border-radius: 10px; font-size: 20px; ">+1 en IT Essentials proporcionado por CISCO</span><br>
+              <span style=" border-radius: 10px; font-size: 20px; ">+1 Acreditación de Competencias en Tecnologías Microsoft para la Productividad proporcionado por Microsoft</span><br>
+              <span style=" border-radius: 10px; font-size: 20px; ">+1 curso de Introducción a Laravel 5 proporcionado por Udemy</span><br>
+              <span style=" border-radius: 10px; font-size: 20px; ">+1 curso de 60+ Herramientas de desarrollo y diseño web proporcionado por Udemy</span><br>
+              <span style=" border-radius: 10px; font-size: 20px; ">+1 curso completo de WordPress y Sitios web proporcionado por Udemy</span><br>
+              <span style=" border-radius: 10px; font-size: 20px; ">+5 Constancias en competencias tecnológicas proporcionado por el CBTIS 202 "José Vasconcelos"</span><br>
+              </div>
+            <div class="col-md-6 text-center">
+              <figure>
+                <img src="Resources/Images/numero-uno.svg" class="img-fluid">
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-67.50,193.38 C34.65,-50.70 304.96,161.90 509.25,61.50 L500.00,0.00 L-0.00,0.00 Z" style="stroke: none; fill:#DEDCDC;"></path></svg></div>
+      </section>
 
-
+      <section id="seccion5">
+        <div class="container-fluid">
+        	<h1 style="text-align: center;">Proyectos realizados</h1>
+        <hr style="width: 40vw; background-color: #F911BA; height: 2px; margin-top: -20px;">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card" style="width: auto; height: auto; margin-top: 30px; margin-bottom: 30px;">
+              <img src="Resources/Images/Epo260.png" alt="Avatar" style="width:100%" class="img-fluid">
+              <div class="container">
+                <h4><b>Proyecto Estadía Profesional</b></h4>
+                <a href="https://epo260.com/">Ir al trabajo</a>
+                <p>Realice mi estadía profesional en la Escuela Preparatoria Oficial Núm.260 donde desarrolle el sistema web para la Institución Educativa.</p>
+              </div>
+              <div style="background-color: #A6A6A6; text-align: center; font-size: 1.2rem">Creado del 04 de mayo del 2020 al 19 de agosto del 2020</div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <footer class="page-footer font-small stylish-color-white pt-0">
+      	<div class="footer-copyright text-center py-3" style="color: #0B0B0B;">
+      		<a href="https://www.linkedin.com/in/josé-luis-badillo-gonzález-59b3a919a">
+      			<img src="Resources/Images/linkedin-icon-2.svg" style="width: 50px; height: 50px;">
+      		</a>
+        </div>
         <div class="footer-copyright text-center py-3" style="color: #0B0B0B;">© 2020 Copyright:
           <a href="https://joseluising.github.io/" style="color: #0B0B0B;">José Luis Badillo González</a>
         </div>
